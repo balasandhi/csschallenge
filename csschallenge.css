@@ -12,10 +12,15 @@
 .topright{
   float:right;
   padding: 10px 10px;
+  color:red;
+}
+
+.gregslist{
+  color: black;
 }
 
 .input [type=text]{
-    width: 40%;
+    width: 500px;
     box-sizing: border-box;
     border: 1px solid grey;
     border-radius: 4px;
@@ -24,21 +29,25 @@
     background-position: 10px 10px;
     background-repeat: no-repeat;
     padding: 10px 20px 10px 40px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+.button-holder{
+    display:inline-block;
+    background-color: white;
+    margin:10px 0 0 0;
+    text-align:center;
     position: relative;
     top: 100px;
     left: 300px;
-    font-size: 20px;
+    
 }
-.button-holder{
-    position: absolute;
-    background-color: white;
-    border-top:thin solid black;
-    box-shadow:1px 1px 1px 1px black;
-    float:center;
-    height:35px;
-    margin:10px 0 0 0;
-    text-align:center;
-    width:50px;
+.magnifying-glass{
+  height:30px;
+  width:30px;
+  padding:10px;
+  vertical-align: middle;
+  box-shadow:1px 1px 1px 1px black;
 }
 .position{
   top: 100px;
